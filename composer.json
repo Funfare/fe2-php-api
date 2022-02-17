@@ -1,0 +1,21 @@
+{
+    "name": "funfare/fe2-php-api",
+    "description": "API Client for Alamos GmbH FE2 System",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Funfare\\Fe2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Funfare",
+            "email": "info@funfare.de"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "illuminate/collections": "^8.0"
+    }
+}
